@@ -23,6 +23,7 @@ export class ListPage {
         title: 'Item ' + i,
         note: 'This is item #' + i,
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+        // 나는여기서이렇게하면되는겆
         // 그러하다그러하다 
       });
     }
