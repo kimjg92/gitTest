@@ -14,7 +14,7 @@ export class ListPage {
 // 서문교 주석
   constructor(public navCtrl:  , public navParams: NavParams) {
     this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-    'american-football', 'boat', 'bluetooth', 'build'];
+    'american-football', 'boat', 'bluetooth', 'build','난여기하나더추가'];
 // 여기다가함
     this.items = [];
     for(let i = 1; i < 11; i++) {
