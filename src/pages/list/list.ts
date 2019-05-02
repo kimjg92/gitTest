@@ -11,7 +11,7 @@ import { ItemDetailsPage } from '../item-details/item-details';
 export class ListPage {
   icons: string[];
   items: Array<{title: string, note: string, icon: string}>;
-
+// 서문교 주석
   constructor(public navCtrl:  , public navParams: NavParams) {
     this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
     'american-football', 'boat', 'bluetooth', 'build'];
